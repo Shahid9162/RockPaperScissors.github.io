@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #5bc0de;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  font-weight: 250;
+  text-align: center;
+  padding: 1rem;
+}
+
+.result {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 450;
+  margin: 1rem;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.user-score {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 350;
+}
+#user {
+  text-align: center;
+}
+
+.system-score {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 350;
+}
+#system {
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rock-img img {
+  height: 22rem;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.choice:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.paper-img img {
+  height: 22rem;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+.scissor-img img {
+  height: 22rem;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+#msg {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  width: 15.5rem;
+  margin-left: 40%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 0.2rem;
+}
